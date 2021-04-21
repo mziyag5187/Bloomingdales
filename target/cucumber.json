@@ -1,0 +1,81 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2021-04-21T10:05:49.939Z",
+        "before": [
+          {
+            "result": {
+              "duration": 3351808600,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.bloomingdales.step_definitions.Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 20,
+        "name": "There will be merchandising content in the basket page",
+        "description": "          (content. Ex: free shipping text)",
+        "id": "implement-basket-page;there-will-be-merchandising-content-in-the-basket-page",
+        "after": [
+          {
+            "result": {
+              "duration": 1135947300,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.bloomingdales.step_definitions.Hooks.tearDown(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 5219014900,
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "the user is on the Basket Page as a guest user",
+            "match": {
+              "location": "com.bloomingdales.step_definitions.BasketStepDefs.the_user_is_on_the_Basket_Page_as_a_guest_user()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 64940300,
+              "status": "passed"
+            },
+            "line": 23,
+            "name": "the user should be able to see the \"Free Shipping\" content in the Basket page",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Free Shipping\"",
+                  "offset": 35
+                }
+              ],
+              "location": "com.bloomingdales.step_definitions.BasketStepDefs.the_user_should_be_able_to_see_the_content_in_the_Basket_page(java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@wip"
+          }
+        ]
+      }
+    ],
+    "name": "Implement Basket Page",
+    "description": "         -In order to see and possibly edit my order before I enter the checkout flow,\n         as a customer I should have access to a cart page.",
+    "id": "implement-basket-page",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/features/BasketPage.feature",
+    "tags": []
+  }
+]
